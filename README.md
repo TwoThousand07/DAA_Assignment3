@@ -1,14 +1,4 @@
 # DAA Assignment 3 - Graphs
-
-Java 17 and Maven project for the Design and Analysis of Algorithms assignment. It implements a shared adjacency-list graph, DSU, Kruskal, Prim, iterative Kosaraju, Kahn topological ordering, and DAG shortest paths.
-
-## Open in IntelliJ IDEA
-
-1. Extract the ZIP archive.
-2. Open the `DAA_Assignment3` folder in IntelliJ IDEA and trust the Maven project.
-3. Select JDK 17 or newer and reload Maven dependencies.
-4. Run `edu.aitu.daa.Main` or use the Maven commands below.
-
 ## Build and tests
 
 ```bash
@@ -50,7 +40,3 @@ MAVEN_OPTS="-Xmx3g" mvn exec:java -Dexec.args="benchmark"
 ## Git workflow
 
 The repository contains `main`, `feature/dsu`, `feature/mst`, `feature/scc`, `feature/paths`, and `feature/metrics`, with small feature commits and a `v1.0` release tag. To see the history, use `git log --oneline --decorate --graph --all`.
-
-## AI-use acknowledgement
-
-AI assistance was used to help scaffold the project, review the implementation against the assignment checklist, and draft parts of the report. The student should run the tests and benchmark locally, inspect the generated results, and be ready to explain the algorithms and operation counters during the defense.
